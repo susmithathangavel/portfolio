@@ -1,0 +1,183 @@
+body {
+    background-color: #0A0A23;
+    color: #E0E0E0;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+}
+#about {
+    scroll-margin-top: 100px; /* Adjust this value based on your navbar height */
+}
+.certi-card {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+.section-title {
+    font-weight: 600;
+    color: #8A2BE2;
+    margin-bottom: 20px;
+}
+
+#certifications .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#certifications .col-md-6.col-lg-3 {
+    display: flex;
+}
+
+#certifications .card {
+    flex: 1;
+}
+
+.card {
+    background-color: #1a1a40;
+    border: none;
+    border-radius: 12px;
+    inline-size: contain;
+}
+
+    .card:hover {
+        box-shadow: 0 0 10px #8A2BE2;
+        transition: transform 0.3s;
+    }
+
+.btn-primary {
+    background-color: #8A2BE2;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #9B30FF;
+    }
+
+.skills-logos img {
+    width: 60px;
+    margin: 10px;
+    transition: transform 0.3s;
+   
+ 
+}
+    .skills-logos img:hover {
+        transform: scale(1.2);
+    }
+
+
+.hero-avatar {
+    width: 170px;
+}
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 85vh;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    font-size: 14px;
+    color: white;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*.glow-container::before {
+    content: '';
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 312px;
+    height: 310px;
+    background: radial-gradient(circle, rgba(138,43,226,0.6) 0%, rgba(10,10,35,0) 70%);
+    filter: blur(20px);
+    z-index: 0;
+    border-radius: 50%;
+}
+
+.glow-container img {
+    position: relative;
+    z-index: 2;
+}
+
+.glow-container::before {*/  /*responsive view*/
+    /*top: 50%;
+}
+@media only screen and (max-width: 1024px) {*/ /*ipad pro*/
+    /*.glow-container::before {
+        top: 63%;
+    }
+}
+@media (min-width: 769px) and (max-width: 850px) {*/  /*ipad air*/
+    /*.glow-container::before {
+        top: 65%; 
+    }
+}
+
+@media (max-width: 768px) {*/  /*ipad mini*/
+    /*.glow-container::before {
+        top: 64%;
+    }
+}
+
+@media (max-width: 480px) {*/ /*mobile views*/
+    /*.glow-container::before {
+        top: 61%;
+    }
+}*/
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    #about .container {
+        max-width: 95%; 
+        padding: 0 20px;
+    }
+
+    #about .col-lg-5,
+    #about .col-lg-7 {
+        width: 100%;
+    }
+
+    #about .col-lg-7 {
+        text-align: justify; 
+    }
+
+    .aboutimg {
+        display: block;
+        margin: 0 auto 20px auto;
+        
+    }
+}
+
+.custom-projects {
+    background-color: #0a0a23;
+}
+
+.text-purple {
+    color: #a782e0;
+}
+
+.project-img {
+    z-index: 2;
+    position: relative;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.project-description {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(136, 68, 255, 0.2);
+}
+
+.project-carousel img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 12px;
+}
+
